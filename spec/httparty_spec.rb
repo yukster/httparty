@@ -19,7 +19,7 @@ describe HTTParty do
       HTTParty::AllowedFormats.should == HTTParty::Parser::SupportedFormats
     end
   end
-  
+
   describe "pem" do
 
     it 'should set the pem content' do
